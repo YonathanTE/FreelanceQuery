@@ -1,7 +1,7 @@
 # Freelance Guidelines
 
 ### Question(s):
-When do LPers decide to pay the gas fees and take profits? What percentage (and how much) of profits usually get eaten up by gas fees?
+When do liquidity providers decide to pay the gas fees and take profits? What percentage (and how much) of profits usually get eaten up by gas fees?
 
 ### Links to documentation: 
 - https://docs.flipsidecrypto.com/our-data/tables/table-schemas/ethereum-events
