@@ -1,4 +1,4 @@
-# 15. Impacts of Price Changes bounty
+# 15. Impacts of Price Changes bounty from Flipside Crypto
 
 ### Question(s):
 When do liquidity providers decide to pay the gas fees and take profits? What percentage (and how much) of profits usually get eaten up by gas fees?
