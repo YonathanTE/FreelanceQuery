@@ -33,4 +33,10 @@ The result used 40.067 MB
     WHERE transactions.block_timestamp IS NOT NULL
     		AND udm_events.amount IS NOT NULL 
 			AND transactions.block_timestamp::DATE > CURRENT_DATE-30 -- So the query is limited to activity within the past 30 days
+;
 
+-- The intention of the code below was to generate the images that depicted the withdrawl/addition into liquidity pools.
+SELECT *
+FROM ethereum.dex_swaps
+WHERE block_timestamp::date > CURRENT_DATE - 30 
+AND pool_name LIKE '%SUSHI%' -- Works best to contain SUSHI pools alone **
